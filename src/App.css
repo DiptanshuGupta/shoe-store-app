@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 60px; /* space for navbar */
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #e0f7fa);
+}
+.page-content {
+  padding: 20px;
+  margin-top: 60px;
+}

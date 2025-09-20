@@ -1,0 +1,28 @@
+.products-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-panel {
+  flex: 2;
+  min-width: 60%;
+}
+
+.right-panel {
+  flex: 1;
+  min-width: 35%;
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 768px) {
+  .products-page {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .right-panel {
+    min-width: 100%;
+  }
+}
